@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.scss";
 import Navigation from "./navgation-bar";
+import IntroContent from "./intro-content";
 
 import cloud from "../../images/cloud.png";
 import cloudSoft from "../../images/cloud-soft.png";
@@ -22,6 +23,7 @@ const Intro = () => {
             />
             <div className="content">
                 <Navigation />
+                <IntroContent />
             </div>
         </div>
     );
