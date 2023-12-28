@@ -25,7 +25,7 @@ const Form = () => {
 
     const formSuccess = () => {
         toast("Thanks For Submitting your Query!");
-        document.getElementById("query-Form").reset();
+        document.getElementById("query-form").reset();
     };
 
     return (
