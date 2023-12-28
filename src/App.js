@@ -5,6 +5,7 @@ import Skills from "./components/skills";
 import Portfolio from "./components/Portfolio";
 import Blog from "./components/blogs";
 import Contact from "./components/contact";
+import Footer from "./components/footer";
 import "./app.scss";
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
             <Portfolio />
             <Blog />
             <Contact />
+            <Footer />
         </div>
     );
 };

@@ -6,6 +6,7 @@ import "./style.scss";
 import hand from "../../../images/hand.png";
 import CallToAction from "../../shared/CallToAction";
 import photo from "../../../images/girl.png";
+import { scrollToSection } from "../../utils/helper";
 
 const IntroContent = () => {
     return (
@@ -32,7 +33,10 @@ const IntroContent = () => {
                         eager to meet other software engineers in the area, so
                         feel free to connect!
                     </p>
-                    <CallToAction text={"Contact Me"} />
+                    <CallToAction
+                        text={"Contact Me"}
+                        action={() => scrollToSection("contact")}
+                    />
                 </div>
                 <div className="right-col">
                     <img
